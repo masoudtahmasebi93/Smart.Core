@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.645
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Smart.Core", "Smart.Core\Smart.Core.csproj", "{D878E76F-A563-4DB2-BD5C-5174940FAE25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Smart.Core.View", "Smart.Core\Smart.Core.View.csproj", "{D878E76F-A563-4DB2-BD5C-5174940FAE25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{49867282-2D3D-4A7F-93EB-6AF35DF8BCDB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{596207F6-6C9D-40DD-9EBB-50D75A78BCB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataSource", "DataSource\DataSource.csproj", "{8D32CFF7-A218-4C32-B4C9-632083845BA7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +21,17 @@ Global
 		{D878E76F-A563-4DB2-BD5C-5174940FAE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D878E76F-A563-4DB2-BD5C-5174940FAE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D878E76F-A563-4DB2-BD5C-5174940FAE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D32CFF7-A218-4C32-B4C9-632083845BA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D32CFF7-A218-4C32-B4C9-632083845BA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D32CFF7-A218-4C32-B4C9-632083845BA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D32CFF7-A218-4C32-B4C9-632083845BA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D878E76F-A563-4DB2-BD5C-5174940FAE25} = {49867282-2D3D-4A7F-93EB-6AF35DF8BCDB}
+		{8D32CFF7-A218-4C32-B4C9-632083845BA7} = {596207F6-6C9D-40DD-9EBB-50D75A78BCB1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EB00F4AD-913D-4841-ADB0-2BB61C2FC93C}

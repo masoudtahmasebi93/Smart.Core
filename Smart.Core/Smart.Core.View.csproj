@@ -6,12 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ACoreX.Core" Version="1.0.3" />
-    <PackageReference Include="ACoreX.Data" Version="1.0.0" />
-    <PackageReference Include="ACoreX.Infrastructure" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
-    <PackageReference Include="TSGenerator" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
